@@ -1,0 +1,149 @@
+@charset "UTF-8";
+/* SASS 变量 */
+.wrapper .comingsoon .text .link .linkButton a {
+  cursor: pointer;
+  transition: all 100ms;
+  user-select: none;
+}
+
+/* 样式开始 */
+body {
+  min-height: 100vh;
+  background: url(../images/brandimage.svg) no-repeat;
+  background-size: 90vw;
+  background-position: center 75vh;
+}
+@media screen and (min-width: 1024px) {
+  body {
+    display: flex;
+    align-items: center;
+    background-size: 90vh;
+    background-position: 40vw center;
+  }
+}
+
+.wrapper {
+  padding: 5vw;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper {
+    padding: 10vw;
+    margin-top: -3vw;
+  }
+}
+.wrapper .logo img {
+  height: 24px;
+  width: auto;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .logo img {
+    height: 32px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.wrapper .comingsoon .text {
+  font-size: 32px;
+  margin-top: 8vw;
+  line-height: 1.5;
+  font-weight: 300;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon .text {
+    margin-top: 4vw;
+    font-size: 46px;
+  }
+}
+.wrapper .comingsoon .text .tips {
+  color: rgba(0, 0, 0, 0.5);
+}
+.wrapper .comingsoon .text .link {
+  font-size: 16px;
+  margin-top: 6vw;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon .text .link {
+    margin-top: 3vw;
+    display: flex;
+    align-items: center;
+  }
+}
+.wrapper .comingsoon .text .link .linkTitle {
+  color: rgba(0, 0, 0, 0.5);
+  margin-right: 16px;
+  width: 100%;
+  margin-bottom: 16px;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon .text .link .linkTitle {
+    margin-bottom: 0;
+    width: auto;
+  }
+}
+.wrapper .comingsoon .text .link .linkButton {
+  display: flex;
+}
+.wrapper .comingsoon .text .link .linkButton a {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  flex: 1;
+  text-align: center;
+  margin-right: 16px;
+  border-radius: 12px;
+  padding: 20px;
+}
+.wrapper .comingsoon .text .link .linkButton a:last-child {
+  margin-right: 0;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon .text .link .linkButton a {
+    flex: auto;
+    border-radius: 100px;
+    padding: 20px 24px 20px 20px;
+  }
+}
+.wrapper .comingsoon .text .link .linkButton a.telegram {
+  color: #0f8fe4;
+  border: 1px solid rgba(15, 143, 228, 0.2);
+  background: rgba(15, 143, 228, 0.05);
+}
+.wrapper .comingsoon .text .link .linkButton a.telegram:hover {
+  border-color: rgba(15, 143, 228, 0.5);
+  background: rgba(15, 143, 228, 0.1);
+}
+.wrapper .comingsoon .text .link .linkButton a.telegram svg {
+  margin-right: 12px;
+  height: 24px;
+  width: auto;
+  fill: #0f8fe4;
+}
+.wrapper .comingsoon .text .link .linkButton a.wechat {
+  color: #18ad19;
+  border: 1px solid rgba(24, 173, 25, 0.2);
+  background: rgba(24, 173, 25, 0.05);
+}
+.wrapper .comingsoon .text .link .linkButton a.wechat:hover {
+  border-color: rgba(24, 173, 25, 0.5);
+  background: rgba(24, 173, 25, 0.1);
+}
+.wrapper .comingsoon .text .link .linkButton a.wechat svg {
+  margin-right: 12px;
+  height: 24px;
+  width: auto;
+  fill: #18ad19;
+}
+.wrapper .comingsoon .text .link .linkButton a span {
+  display: none;
+}
+@media screen and (min-width: 1024px) {
+  .wrapper .comingsoon .text .link .linkButton a span {
+    display: inline;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
